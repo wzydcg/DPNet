@@ -23,18 +23,16 @@
 
 ## Dataset
 
-Download the RAOS dataset from [here](https://github.com/Luoxd1996/RAOS).
+Download the EBHI-Seg dataset from [here](https://www.kaggle.com/datasets/orvile/ebhi-seg-colorectal-cancer).
 
-Download the CAS2023 dataset from [here](https://codalab.lisn.upsaclay.fr/competitions/9804#participate-get_starting_kit).
+Download the SegPANDA200 dataset from [here](https://drive.google.com/drive/folders/1kPWiFxL5HxVRM4antSPq9FzjBIbmkGWA).
 
-Download the MM-WHS dataset from [here](https://mega.nz/folder/UNMF2YYI#1cqJVzo4p_wESv9P_pc8uA).
-
-Download the MSD dataset from [here](http://medicaldecathlon.com/).
+Download the MoNuSeg2018 dataset from [here](https://drive.google.com/file/d/1ZgqFJomqQGNnsx7w7QBzQQMVA16lbVCA/view).
 
 ## Training
 
 ### Default Scripts
-All default hyperparameters among these models are tuned for RAOS datasets.
+All default hyperparameters among these models are tuned for EBHI-Seg datasets.
 
 Wandb is needed if visualization of training parameters is wanted
 
@@ -70,14 +68,14 @@ python main.py \
 
 ```
 @ARTICLE{
-  author={Wang, Zhiyan and Wang, Changjian and Xu, Kele and Tang, Zhongshun and Zhuang, Yan and Zou, Jiani and Liu, Fangyi},
+  author={Wang, Zhiyan and Wang, Changjian and Xu, Kele},
   journal={}, 
-  title={MCDNet: Morphological-Conditional Dual-view Fusion for 3D Tubular Structure Segmentation}, 
-  year={2025},
+  title={When Texture Meets Classification: A Dual-Prior Framework for Pathological Image Segmentation}, 
+  year={2026},
   volume={},
   number={},
   pages={},
-  keywords={Tubular Structure Segmentation;Conditional Convolution;Dual-view Architecture},
+  keywords={Pathological image Segmentation, Pathological image classification, Dual-Prior},
   doi={}}
 
 ```
